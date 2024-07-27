@@ -17,12 +17,6 @@ form.addEventListener('submit', function(e) {
         // Show result
         results.innerHTML = `<span>Your BMI is ${bmi}</span>`;
 
-        // Remove any previous weight guide result
-        const previousWeightGuideResult = document.querySelector('#weight-guide-result');
-        if (previousWeightGuideResult) {
-            previousWeightGuideResult.remove();
-        }
-
         // Create and append the weight guide result
         const weightGuideDiv = document.createElement('div');
         weightGuideDiv.id = 'weight-guide-result';
