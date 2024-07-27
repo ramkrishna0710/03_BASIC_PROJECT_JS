@@ -1,0 +1,92 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: #797978;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1 {
+    margin: 0;
+    color: #fff;
+    font-size: 36px;
+    padding-bottom: 20px;
+}
+
+form {
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+form p {
+    margin: 20px 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 18px;
+}
+
+input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 0 auto;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+button {
+    width: calc(100% - 20px);
+    padding: 10px;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    color: #797978;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+    background-color: pink;
+    color: #fff;
+}
+
+#results {
+    font-size: 24px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+#weight-guide {
+    margin-top: 25px;
+    color: #fff;
+    text-align: left;
+    padding: 0 20px;
+}
+
+#weight-guide h3 {
+    margin: 0 0 10px 0;
+    font-size: 20px;
+}
+
+#weight-guide p {
+    margin: 5px 0;
+}
